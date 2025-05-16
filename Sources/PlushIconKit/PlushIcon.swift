@@ -71,6 +71,7 @@ public enum PlushIcon: String, CaseIterable {
     case cog1
     case cog2
     case collaborationsIdea
+    case contactPhonebook
     case copyDocument
     case copyPaste
     case crown
@@ -208,6 +209,8 @@ public enum PlushIcon: String, CaseIterable {
     case partyHat
     case penDraw
     case pencil
+    case phone
+    case phoneCallRingVolume
     case pianoKeys
     case pin1
     case pinwheel
@@ -370,6 +373,7 @@ public enum PlushIcon: String, CaseIterable {
         case .cog1: return UIImage.plushCog1(color: color, size: targetSize)
         case .cog2: return UIImage.plushCog2(color: color, size: targetSize)
         case .collaborationsIdea: return UIImage.plushCollaborationsIdea(color: color, size: targetSize)
+        case .contactPhonebook: return UIImage.plushContactPhonebook(color: color, size: targetSize)
         case .copyDocument: return UIImage.plushCopyDocument(color: color, size: targetSize)
         case .copyPaste: return UIImage.plushCopyPaste(color: color, size: targetSize)
         case .crown: return UIImage.plushCrown(color: color, size: targetSize)
@@ -507,6 +511,8 @@ public enum PlushIcon: String, CaseIterable {
         case .partyHat: return UIImage.plushPartyHat(color: color, size: targetSize)
         case .penDraw: return UIImage.plushPenDraw(color: color, size: targetSize)
         case .pencil: return UIImage.plushPencil(color: color, size: targetSize)
+        case .phone: return UIImage.plushPhone(color: color, size: targetSize)
+        case .phoneCallRingVolume: return UIImage.plushPhoneCallRingVolume(color: color, size: targetSize)
         case .pianoKeys: return UIImage.plushPianoKeys(color: color, size: targetSize)
         case .pin1: return UIImage.plushPin1(color: color, size: targetSize)
         case .pinwheel: return UIImage.plushPinwheel(color: color, size: targetSize)
@@ -589,7 +595,6 @@ public enum PlushIcon: String, CaseIterable {
         case .web: return UIImage.plushWeb(color: color, size: targetSize)
         case .xTwitterLogo: return UIImage.plushXTwitterLogo(color: color, size: targetSize)
         case .youtubeLogo: return UIImage.plushYoutubeLogo(color: color, size: targetSize)
-        // Add other cases as needed and map them to their respective UIImage extension methods
         }
     }
 } 
